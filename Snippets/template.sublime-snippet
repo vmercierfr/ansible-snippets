@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+- name: ${1:Name for this task}
+  template:
+    src: $2
+    dest: $3
+    owner: ${4:root}
+    group: ${5:root}
+    ${6:chmod: ${7:0644}}
+    ${8:notify: $9}
+]]></content>
+    <tabTrigger>template</tabTrigger>
+    <scope>source.yaml,source.ansible</scope>
+    <description>Template task</description>
+</snippet>

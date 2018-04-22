@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+"{{ ${1:var} }}"
+]]></content>
+    <tabTrigger>variable</tabTrigger>
+    <scope>source.yaml,source.ansible</scope>
+</snippet>
