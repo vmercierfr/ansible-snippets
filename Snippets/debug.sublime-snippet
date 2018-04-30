@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[- name: ${1:Debug message}
+  debug:
+    msg: ${2:"{{ ${3:var} \}\}"}
+
+]]></content>
+    <tabTrigger>debug</tabTrigger>
+    <scope>source.yaml,source.ansible</scope>
+    <description>Debug task</description>
+</snippet>
